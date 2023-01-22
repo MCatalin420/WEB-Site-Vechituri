@@ -11,6 +11,7 @@ if(isset($_POST['submit'])){
 
     if ($conn->query($sql) === TRUE) {
         echo "Te-ai inregistrat cu succes!";
+        header ("Location:index.php");
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
@@ -21,7 +22,7 @@ $conn->close();
 
 <html>
 <body>
-<h1>INREGISTRARE</h1>
+<h1 class="titlucufont">Inregistrare</h1>
 <form method="post" action="">
     Username: <input type="text" name="name"><br>
     Password: <input type="password" name="password"><br>

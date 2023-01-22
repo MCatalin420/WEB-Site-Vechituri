@@ -1,3 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 body {
-    background: darkgrey;
+    color:#83466d;
+    margin: 0;
+    background-color: #fff7e0;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23b1905d' fill-opacity='0.31'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+form {
+    text-align: center;
+    margin-top: 25vh;
+}
+
+.forminput label {
+    display: inline-block;
+    width: 10vh;
+}
+
+.logout {
+    margin-left: 1vh;
+}
+
+.carusel {
+    width: 75vh;
+    margin:15px auto 15px auto;
+    height:75vh;
+}
+
+.navbar-brand, .titlucufont {
+    font-family: 'Lobster', cursive;
+}
+
+.titlu-carusel {
+    font-family: 'Fredoka One', cursive;
+}
+.butoane_anunturi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:15px auto 15px auto;
+}
+.butoane_anunturi input{
+    margin: 3rem 2rem 2rem 3rem;
+}
+
+div .rama {
+    display: block;
+    background-color: #343a40;
+    height: 30vh;
+    width:20vw;
+}
+table {
+    margin: 2rem 10rem 2rem;
+    max-width: 100vw;
+}
+.titlu-tabel{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+th, tr{
+    font-size:1.5rem;
+}
+th {
+    font-family: 'Fredoka One', cursive; 
+    padding: 30px;
+}
+td{
+    padding:1.5rem;
+}
+.container-home{
+    padding: 2.5rem;
+    margin-bottom:1rem;
+    color:grey;
+    text-align: center;
+    
+}
+
+.carousel {
+    width:640px;
+    height:450px;
+  }
+
+.footer {
+    text-align: center;
 }
